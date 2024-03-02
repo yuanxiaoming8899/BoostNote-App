@@ -1,100 +1,96 @@
-<div align="center">
-  <img src="static/logo_with_text_teal.svg" width="400">
-
-  Boost Note is a document driven project management tool that maximizes remote DevOps team velocity.
-  
-  [https://boostnote.io/](https://boostnote.io/)
-
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div align="center" dir="auto">
+  <a target="_blank" rel="noopener noreferrer" href="/BoostIO/BoostNote-App/blob/master/static/logo_with_text_teal.svg"><img src="/BoostIO/BoostNote-App/raw/master/static/logo_with_text_teal.svg" width="400" style="max-width: 100%;"></a>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Boost Note 是一种文档驱动的项目管理工具，可最大限度地提高远程 DevOps 团队的速度。</font></font></p>
+<p dir="auto"><a href="https://boostnote.io/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://boostnote.io/</font></font></a></p>
 </div>
-
-![uiimage](./static/img_ui.png)
-
-## 👷 Core Team (maintainers)
-
-- [Rokt33r](https://github.com/rokt33r)
-- [ButteryCrumpet](https://github.com/ButteryCrumpet)
-- [Davy-c](https://github.com/Davy-c)
-- [Komediruzecki](https://github.com/Komediruzecki)
-
-## 📦 Download App
-
-### 🖥 Desktop
-
-- [🌎 Web App (boostnote.io)](https://boostnote.io)
-- [🍎 macOS (.dmg)](https://github.com/BoostIO/BoostNote-App/releases/latest/download/boost-note-mac.dmg)
-- [:framed_picture: Windows (.exe NSIS)](https://github.com/BoostIO/BoostNote-App/releases/latest/download/boost-note-win.exe)
-- [🐧 Linux (.deb)](https://github.com/BoostIO/BoostNote-App/releases/latest/download/boost-note-linux.deb)
-- [🐧 Linux (.rpm)](https://github.com/BoostIO/BoostNote-App/releases/latest/download/boost-note-linux.rpm)
-
-### 📱 Mobile
-
-- [🌎 Mobile Web App (m.boostnote.io)](https://m.boostnote.io)
-- [🍏 iOS (Apple App Store)](https://apps.apple.com/gb/app/boost-note-mobile/id1576176505)
-- [🤖 Android (Google Play Store)](https://play.google.com/store/apps/details?id=com.boostio.boostnote2021)
-
-## 💥 Have some troubles?
-
-If you don't know how to use the app, please create a discussion on [our Q&A discussion page](https://github.com/BoostIO/BoostNote-App/discussions/categories/general).
-
-If you find a bug, please create an issue to [our GitHub issue tracker](https://github.com/BoostIO/BoostNote-App/issues).
-
-If it is urgent or private, please join [our Slack channel](https://join.slack.com/t/boostnote-group/shared_invite/zt-cun7pas3-WwkaezxHBB1lCbUHrwQLXw) and send a direct message to @rokt33r.
-
-## 🤲 Wanna contribute?
-
-If you're interested in our project, you can participate in many different ways.
-
-- Sharing your idea
-- Helping community
-- Resolving existing issues
-
-Read our [contributing guide](CONTRIBUTING.md), to learn about our development process, how to propose bugfixes and improvements.
-
-### Sharing your idea
-
-To improve the app, we need your idea! It could be a new feature or an improvement for existing features. If you have any, please create a discussion in [Feature Requests category](https://github.com/BoostIO/BoostNote-App/discussions/categories/feature-requests).
-
-### Helping community
-
-There are many ways to help our community. You can share how you're using our app by writing an article. You can write it in [General discussion page](https://github.com/BoostIO/BoostNote-App/discussions/categories/general), external developer community (Dev.to or Reddit) and your blog if you have one.
-
-Also, you can help other users by answering their questions in [here](https://github.com/BoostIO/BoostNote-App/discussions/categories/q-a).
-
-### Resolving existing issues
-
-We have left the "help wanted" label to [some issues](https://github.com/BoostIO/BoostNote-App/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted+%3Asos%3A%22) which external contributors could try to resolve. Some of them might have a small bounty so you can get a cup of coffee from it after hacking. If you find any interesting issues but their specs are not clear or you don't know how to fix them, please leave a comment on the issues. Then, we will give you more instructions.
-
-## Development
-
-Currently, we provide the frontend source code only so you cannot host our backend server by yourself.
-But you can participate in development via mock backend mode. Although it still doesn't cover every API yet, you can access the basic folder and document management.
-
-### How to run the app
-
-Create .env file.
-
-```sh
-NODE_ENV=development
-MOCK_BACKEND=true
-```
-
-Run webpack processors. You have to run them in separate terminals.
-
-```sh
-npm run dev:cloud
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/BoostIO/BoostNote-App/blob/master/static/img_ui.png"><img src="/BoostIO/BoostNote-App/raw/master/static/img_ui.png" alt="用户界面图像" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">👷 核心团队（维护者）</font></font></h2><a id="user-content--core-team-maintainers" class="anchor-element" aria-label="永久链接：👷核心团队（维护者）" href="#-core-team-maintainers"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://github.com/rokt33r"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">洛克特33r</font></font></a></li>
+<li><a href="https://github.com/ButteryCrumpet"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">黄油松饼</font></font></a></li>
+<li><a href="https://github.com/Davy-c"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">戴维-c</font></font></a></li>
+<li><a href="https://github.com/Komediruzecki"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">科梅迪鲁泽茨基</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">📦 下载应用程序</font></font></h2><a id="user-content--download-app" class="anchor-element" aria-label="永久链接：📦 下载应用程序" href="#-download-app"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🖥 桌面</font></font></h3><a id="user-content--desktop" class="anchor-element" aria-label="永久链接：🖥 桌面" href="#-desktop"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://boostnote.io" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🌎 网络应用程序 (boostnote.io)</font></font></a></li>
+<li><a href="https://github.com/BoostIO/BoostNote-App/releases/latest/download/boost-note-mac.dmg"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🍎macOS (.dmg)</font></font></a></li>
+<li><a href="https://github.com/BoostIO/BoostNote-App/releases/latest/download/boost-note-win.exe"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🖼️ Windows (.exe NSIS)</font></font></a></li>
+<li><a href="https://github.com/BoostIO/BoostNote-App/releases/latest/download/boost-note-linux.deb"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🐧 Linux (.deb)</font></font></a></li>
+<li><a href="https://github.com/BoostIO/BoostNote-App/releases/latest/download/boost-note-linux.rpm"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🐧 Linux (.rpm)</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">📱 手机</font></font></h3><a id="user-content--mobile" class="anchor-element" aria-label="永久链接：📱 手机" href="#-mobile"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://m.boostnote.io" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🌎 移动网络应用程序 (m.boostnote.io)</font></font></a></li>
+<li><a href="https://apps.apple.com/gb/app/boost-note-mobile/id1576176505" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🍏 iOS（苹果应用商店）</font></font></a></li>
+<li><a href="https://play.google.com/store/apps/details?id=com.boostio.boostnote2021" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🤖 Android（Google Play 商店）</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💥 有什么烦恼吗？</font></font></h2><a id="user-content--have-some-troubles" class="anchor-element" aria-label="永久链接：💥 有什么麻烦吗？" href="#-have-some-troubles"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您不知道如何使用该应用程序，请在</font></font><a href="https://github.com/BoostIO/BoostNote-App/discussions/categories/general"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们的问答讨论页面</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上创建讨论。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您发现错误，请向</font></font><a href="https://github.com/BoostIO/BoostNote-App/issues"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们的 GitHub 问题跟踪器</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建问题。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果紧急或私密，请加入</font></font><a href="https://join.slack.com/t/boostnote-group/shared_invite/zt-cun7pas3-WwkaezxHBB1lCbUHrwQLXw" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们的 Slack 频道</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并直接发送消息至 @rokt33r。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🤲 想贡献吗？</font></font></h2><a id="user-content--wanna-contribute" class="anchor-element" aria-label="永久链接：🤲想贡献吗？" href="#-wanna-contribute"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您对我们的项目感兴趣，您可以通过多种不同的方式参与。</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分享您的想法</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">帮助社区</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">解决现有问题</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阅读我们的</font></font><a href="/BoostIO/BoostNote-App/blob/master/CONTRIBUTING.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献指南</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，了解我们的开发流程、如何提出错误修复和改进建议。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分享您的想法</font></font></h3><a id="user-content-sharing-your-idea" class="anchor-element" aria-label="永久链接：分享您的想法" href="#sharing-your-idea"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了改进应用程序，我们需要您的想法！</font><font style="vertical-align: inherit;">它可能是一项新功能，也可能是对现有功能的改进。</font></font><a href="https://github.com/BoostIO/BoostNote-App/discussions/categories/feature-requests"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您有任何问题，请在“功能请求”类别</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中创建讨论</font><font style="vertical-align: inherit;">。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">帮助社区</font></font></h3><a id="user-content-helping-community" class="anchor-element" aria-label="永久链接：帮助社区" href="#helping-community"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有很多方法可以帮助我们的社区。</font><font style="vertical-align: inherit;">您可以通过撰写文章来分享您如何使用我们的应用程序。</font><font style="vertical-align: inherit;">您可以将其写在</font></font><a href="https://github.com/BoostIO/BoostNote-App/discussions/categories/general"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一般讨论页面</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、外部开发者社区（Dev.to 或 Reddit）和您的博客（如果有的话）中。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://github.com/BoostIO/BoostNote-App/discussions/categories/q-a"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此外，您还可以在这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">回答其他用户的问题来帮助他们</font><font style="vertical-align: inherit;">。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">解决现有问题</font></font></h3><a id="user-content-resolving-existing-issues" class="anchor-element" aria-label="永久链接：解决现有问题" href="#resolving-existing-issues"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们为外部贡献者可以尝试解决的</font></font><a href="https://github.com/BoostIO/BoostNote-App/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted+%3Asos%3A%22"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一些问题</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">留下了“需要帮助”的标签。</font><font style="vertical-align: inherit;">其中一些可能会有少量赏金，因此您可以在黑客入侵后从中获得一杯咖啡。</font><font style="vertical-align: inherit;">如果您发现任何有趣的问题，但其规格不清楚或您不知道如何解决它们，请对这些问题发表评论。</font><font style="vertical-align: inherit;">然后，我们将为您提供更多说明。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发展</font></font></h2><a id="user-content-development" class="anchor-element" aria-label="永久链接： 发展" href="#development"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目前，我们仅提供前端源代码，因此您无法自行托管我们的后端服务器。</font><font style="vertical-align: inherit;">但你可以通过mock后端模式参与开发。</font><font style="vertical-align: inherit;">虽然它仍然没有涵盖所有 API，但您可以访问基本的文件夹和文档管理。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何运行应用程序</font></font></h3><a id="user-content-how-to-run-the-app" class="anchor-element" aria-label="永久链接：如何运行应用程序" href="#how-to-run-the-app"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建 .env 文件。</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>NODE_ENV=development
+MOCK_BACKEND=true</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="NODE_ENV=development
+MOCK_BACKEND=true" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行 webpack 处理器。</font><font style="vertical-align: inherit;">您必须在单独的终端中运行它们。</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>npm run dev:cloud
+<span class="pl-c"><span class="pl-c">#</span> You can skip next two scripts if you don't need to run electron app.</span>
+npm run dev:electron
+npm run dev:webpack</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="npm run dev:cloud
 # You can skip next two scripts if you don't need to run electron app.
 npm run dev:electron
-npm run dev:webpack
-```
-
-### How to extend mock backend
-
-When the mode is enabled, all API calls will be passed to `src/cloud/api/mock/mockHandler.ts`.
-
-The source code is quite similar to a router interface. All you need to is `method`, `pathname` and a handler function. So, when you confront `Not Found` error while calling `GET /api/something`, you can simply add a mock route like below.
-
-```ts
-{
+npm run dev:webpack" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何扩展模拟后端</font></font></h3><a id="user-content-how-to-extend-mock-backend" class="anchor-element" aria-label="永久链接：如何扩展模拟后端" href="#how-to-extend-mock-backend"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">启用该模式后，所有 API 调用都将传递到</font></font><code>src/cloud/api/mock/mockHandler.ts</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">.</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">源代码与路由器接口非常相似。</font><font style="vertical-align: inherit;">您所需要的只是</font></font><code>method</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><code>pathname</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一个处理函数。</font><font style="vertical-align: inherit;">因此，当您</font></font><code>Not Found</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在调用时遇到错误时</font></font><code>GET /api/something</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，您可以简单地添加如下所示的模拟路由。</font></font></p>
+<div class="highlight highlight-source-ts notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-kos">{</span>
+  <span class="pl-c1">method</span>: <span class="pl-s">'get'</span><span class="pl-kos">,</span>
+  <span class="pl-c1">pathname</span>: <span class="pl-s">'api/something'</span><span class="pl-kos">,</span>
+  <span class="pl-en">handler</span>: <span class="pl-kos">(</span><span class="pl-kos">{</span> search <span class="pl-kos">}</span><span class="pl-kos">)</span>: <span class="pl-smi">GetSomethingResponse</span> <span class="pl-c1">=&gt;</span> <span class="pl-kos">{</span>
+    <span class="pl-k">return</span> <span class="pl-kos">{</span>
+      ...<span class="pl-s1">something</span>
+    <span class="pl-kos">}</span>
+  <span class="pl-kos">}</span><span class="pl-kos">,</span>
+<span class="pl-kos">}</span></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="{
   method: 'get',
   pathname: 'api/something',
   handler: ({ search }): GetSomethingResponse => {
@@ -102,37 +98,49 @@ The source code is quite similar to a router interface. All you need to is `meth
       ...something
     }
   },
-}
-```
-
-### Scripts
-
-- Development scipts
-  - `npm run dev:cloud` : Run webpack for the cloud space
-  - `npm run dev:webpack` : Run webpack for the desktop app main window renderer
-  - `npm run dev:electron` : Run webpack for the desktop app main processor
-  - `npm run dev:mobile` : Run webpack for the mobile app
-  - `npm run lint` : Check lint errors
-  - `npm run format` : Try to fix lint errors automatically
-  - `npm test` : Run test script
-  - `npm run tsc` : Check type errors
-- Build scripts
-  - `npm run build:electron-production` : Build assets for the desktop app
-  - `npm run build:cloud-production` : Build asssets for the cloud space
-  - `npm run build:mobile-production` : Build assets for the mobile app
-  - `npm start` : Run the desktop app with prebuilt assets
-  - `npm run meta` : Prepare meta data for the desktop app building(Generate package.json for electron-build module)
-  - `npm run prepack` : Create desktop app installers without signing
-  - `npm run release` : Create desktop app installers for production and upload them to GitHub
-
-## 🔗 Links
-
-- [Release Notes](https://github.com/BoostIO/BoostNote-App/discussions/categories/releases/)
-- [Twitter](https://twitter.com/boostnoteapp)
-- [Slack Group](https://join.slack.com/t/boostnote-group/shared_invite/zt-cun7pas3-WwkaezxHBB1lCbUHrwQLXw)
-- [BoostNote-Legacy](https://github.com/BoostIO/BoostNote)
-- [BoostNote.next-local](https://github.com/BoostIO/BoostNote.next-local)
-
-## ⚖️ License
-
-[GPL-3.0 © 2016 - 2022 BoostIO](./LICENSE.md)
+}" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">脚本</font></font></h3><a id="user-content-scripts" class="anchor-element" aria-label="永久链接：脚本" href="#scripts"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发脚本
+</font></font><ul dir="auto">
+<li><code>npm run dev:cloud</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：为云空间运行webpack</font></font></li>
+<li><code>npm run dev:webpack</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：为桌面应用程序主窗口渲染器运行 webpack</font></font></li>
+<li><code>npm run dev:electron</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：为桌面应用程序主处理器运行 webpack</font></font></li>
+<li><code>npm run dev:mobile</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：为移动应用程序运行 webpack</font></font></li>
+<li><code>npm run lint</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：检查 lint 错误</font></font></li>
+<li><code>npm run format</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：尝试自动修复 lint 错误</font></font></li>
+<li><code>npm test</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：运行测试脚本</font></font></li>
+<li><code>npm run tsc</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：检查类型错误</font></font></li>
+</ul>
+</li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">构建脚本
+</font></font><ul dir="auto">
+<li><code>npm run build:electron-production</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：为桌面应用程序构建资产</font></font></li>
+<li><code>npm run build:cloud-production</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：为云空间构建资产</font></font></li>
+<li><code>npm run build:mobile-production</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：为移动应用程序构建资产</font></font></li>
+<li><code>npm start</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：使用预构建的资源运行桌面应用程序</font></font></li>
+<li><code>npm run meta</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：为桌面应用程序构建准备元数据（为电子构建模块生成package.json）</font></font></li>
+<li><code>npm run prepack</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：无需签名即可创建桌面应用程序安装程序</font></font></li>
+<li><code>npm run release</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：创建用于生产的桌面应用程序安装程序并将其上传到 GitHub</font></font></li>
+</ul>
+</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🔗 链接</font></font></h2><a id="user-content--links" class="anchor-element" aria-label="永久链接：🔗 链接" href="#-links"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://github.com/BoostIO/BoostNote-App/discussions/categories/releases/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发行说明</font></font></a></li>
+<li><a href="https://twitter.com/boostnoteapp" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">推特</font></font></a></li>
+<li><a href="https://join.slack.com/t/boostnote-group/shared_invite/zt-cun7pas3-WwkaezxHBB1lCbUHrwQLXw" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">斯莱克集团</font></font></a></li>
+<li><a href="https://github.com/BoostIO/BoostNote"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">BoostNote-旧版</font></font></a></li>
+<li><a href="https://github.com/BoostIO/BoostNote.next-local"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">BoostNote.next-local</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">⚖️ 许可证</font></font></h2><a id="user-content-️-license" class="anchor-element" aria-label="永久链接：⚖️ 许可证" href="#️-license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="/BoostIO/BoostNote-App/blob/master/LICENSE.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GPL-3.0 © 2016 - 2022 BoostIO</font></font></a></p>
+</article></div>
